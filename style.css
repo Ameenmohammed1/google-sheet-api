@@ -1,0 +1,74 @@
+*{
+    margin :0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family : sans-serif;
+}
+
+.main{
+    width: 100;
+    height : 100vh;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+
+}
+
+
+.mainForm{
+    width: 100%;
+}
+
+.form{
+    width: 25%;
+    height: 70%;
+    border: 2px solid #000000;
+    border-radius:15px;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    flex-direction : column;
+    padding: 10px;
+}
+
+.form h1{
+    margin-bottom: 20px;
+}
+
+.field{
+    width : 100%;
+    display : flex;
+    flex-direction : column;
+    gap : 5px;
+    margin-bottom : 10px;
+}
+
+.field input{
+    height : 30px;
+
+}
+
+.field label{
+    font-size : 17px;
+}
+
+.form .submit{
+    padding: 10px 10px;
+    width: 100%;
+    background: #00ff09;
+    border: none;
+    font-size: 17px;
+}
+
+.responseData{
+    width : 100%;
+    padding: 40px;
+
+}
+.responseData .response{
+    width: 100%;
+   border-radius: 15px;
+    padding: 15px;
+    background: #7bff7f;
+    margin-top : 10px;
+}
